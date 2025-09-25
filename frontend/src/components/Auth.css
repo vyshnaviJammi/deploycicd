@@ -1,0 +1,97 @@
+/* Center the form container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('/hotel.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Box styling */
+.auth-box {
+    background-color: white;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title */
+.auth-title {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* Input Fields */
+.auth-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-box select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.auth-button:hover {
+    background-color: darkgreen;
+}
+
+/* Links */
+.auth-links {
+    text-align: right;
+    font-size: 14px;
+}
+
+.forgot-password {
+    color: green;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.auth-footer {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link {
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}

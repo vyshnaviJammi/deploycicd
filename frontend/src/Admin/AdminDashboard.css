@@ -1,0 +1,52 @@
+.admin-dashboard {
+  padding: 20px;
+  color: white;
+  position: relative;
+  background-size: cover;
+}
+
+.dashboard-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.hotel-item, .booking-item {
+  margin-bottom: 20px;
+}
+
+.highlighted-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.edit-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #45a049;
+}

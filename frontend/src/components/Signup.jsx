@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "./Auth.css";
 
-const API_BASE = "http://localhost:8080"; // ✅ backend URL
+const API_BASE = "https://54.167.125.7:8080"; // ✅ backend URL
 
 const Signup = () => {
   const navigate = useNavigate();

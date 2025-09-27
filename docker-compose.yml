@@ -33,7 +33,7 @@ services:
       db:
         condition: service_healthy
     ports:
-      - "8083:8080"
+      - "8083:8081"
     networks:
       - hotel-net
 
